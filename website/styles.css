@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #c0dcec77;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background: linear-gradient(to bottom right);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  }
+  
+  button {
+    font-size: 24px;
+    background-color: #c0dcec77;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    filter: blur(0px);
+    cursor: pointer;
+  }
+  
+  .instagram-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #animation-div {
+    animation-name: slide-up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
